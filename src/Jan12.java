@@ -1,10 +1,6 @@
-import javax.swing.plaf.basic.BasicScrollPaneUI;
-import java.util.Arrays;
-import java.util.Scanner;
 
-public class Main {
+public class Jan12 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         Stack a = new Stack();
         for (int i = 0; i < 15; i++) {
             a.add(i + 1);
